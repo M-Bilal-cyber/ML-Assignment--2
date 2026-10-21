@@ -1,0 +1,18 @@
+{
+  "retrieved_date": "2026-10-22",
+  "instructor_repository": "https://github.com/haqnawaz99/ml-teaching-notebooks",
+  "instructor_commit": "c5f67db8361bd8953c4facf9e5ab98ce9242f314",
+  "original_authors": [
+    "Mr. Mohsin Afzal",
+    "Dr. Rao Muhammad Adeel Nawab"
+  ],
+  "heart_dataset": "https://archive.ics.uci.edu/dataset/45/heart+disease",
+  "heart_download": "https://archive.ics.uci.edu/static/public/45/heart+disease.zip",
+  "heart_doi": "https://doi.org/10.24432/C52P4X",
+  "heart_license": "CC BY 4.0",
+  "heart_selection": "processed.cleveland.data only; 303 rows; age, cp, thalach, exang as inputs; num>0 as target",
+  "files": {
+    "Titanic/data/titanic.csv": "a63e6a9e933cb459d24855705addc6161b26970070444a5bee7d879e915731a8",
+    "Heart_Disease/data/processed.cleveland.data": "a74b7efa387bc9d108d7d0115d831fe9b414b29ae7124f331b622b4efa0427c8"
+  }
+}

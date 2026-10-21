@@ -1,0 +1,30 @@
+{
+  "local_checks_passed": 23,
+  "checks": [
+    "Titanic: every code cell executed without errors",
+    "Titanic: expected disjoint split",
+    "Titanic: exactly four model inputs",
+    "Titanic: saved model reproduces all held-out predictions",
+    "Titanic: metrics match per-row evidence",
+    "Titanic: app inference agrees on every held-out raw input",
+    "Titanic: predictions match the executed instructor model",
+    "Titanic: invalid/missing/extra inputs rejected",
+    "Titanic: Streamlit UI initializes",
+    "Titanic: default form returns prediction",
+    "Titanic: changed-input form returns prediction",
+    "Heart_Disease: every code cell executed without errors",
+    "Heart_Disease: expected disjoint split",
+    "Heart_Disease: exactly four model inputs",
+    "Heart_Disease: saved model reproduces all held-out predictions",
+    "Heart_Disease: metrics match per-row evidence",
+    "Heart_Disease: app inference agrees on every held-out raw input",
+    "Heart_Disease: correct UCI target mapping with no target leakage",
+    "Heart_Disease: scaler statistics use training data only",
+    "Heart_Disease: invalid/missing/extra inputs rejected",
+    "Heart_Disease: Streamlit UI initializes",
+    "Heart_Disease: default form returns prediction",
+    "Heart_Disease: changed-input form returns prediction"
+  ],
+  "cloud_verified": false,
+  "note": "Cloud verification is tracked separately in deployment_status.json."
+}
