@@ -1,12 +1,74 @@
 {
   "Titanic": {
-    "status": "pending_account_sign_in",
-    "url": null,
-    "verified": false
+    "status": "deployed_and_verified",
+    "url": "https://ml-assignment--2-gd6kkhysuysojbbvijypvj.streamlit.app/",
+    "verified": true,
+    "verified_date": "2026-10-22",
+    "timezone": "Asia/Karachi",
+    "public_access_without_sign_in": true,
+    "prediction_tests": [
+      {
+        "inputs": {
+          "PClass": "First",
+          "Gender": "Male",
+          "Sibling": "Zero",
+          "Embarked": "Southampton"
+        },
+        "local_class": 1,
+        "cloud_class": 1,
+        "cloud_result": "Survived"
+      },
+      {
+        "inputs": {
+          "PClass": "First",
+          "Gender": "Female",
+          "Sibling": "Zero",
+          "Embarked": "Southampton"
+        },
+        "local_class": 1,
+        "cloud_class": 1,
+        "cloud_result": "Survived"
+      }
+    ],
+    "repository": "https://github.com/M-Bilal-cyber/ML-Assignment--2",
+    "entrypoint": "Titanic/app.py",
+    "local_model_sha256_at_verification": "25491fee9e7845d5f59115ef42ef385cf513385f57ec995afb27f994b72086bb",
+    "evidence_file": "deployment_evidence/titanic_cloud_prediction.png"
   },
   "Heart_Disease": {
-    "status": "pending_account_sign_in",
-    "url": null,
-    "verified": false
+    "status": "deployed_and_verified",
+    "url": "https://ml-assignment--2-nflehvnfyxcxutzvkm6u8z.streamlit.app/",
+    "verified": true,
+    "verified_date": "2026-10-22",
+    "timezone": "Asia/Karachi",
+    "public_access_without_sign_in": true,
+    "prediction_tests": [
+      {
+        "inputs": {
+          "age": 54,
+          "cp": 1,
+          "thalach": 150,
+          "exang": 0
+        },
+        "local_class": 0,
+        "cloud_class": 0,
+        "cloud_result": "Disease absent"
+      },
+      {
+        "inputs": {
+          "age": 54,
+          "cp": 4,
+          "thalach": 150,
+          "exang": 1
+        },
+        "local_class": 1,
+        "cloud_class": 1,
+        "cloud_result": "Disease present"
+      }
+    ],
+    "repository": "https://github.com/M-Bilal-cyber/ML-Assignment--2",
+    "entrypoint": "Heart_Disease/app.py",
+    "local_model_sha256_at_verification": "75914b03135855b300c0f8d2acfac2c3d2846a7d9cfcabbd2469c42e90e93fc9",
+    "evidence_file": "deployment_evidence/heart_cloud_prediction.png"
   }
 }

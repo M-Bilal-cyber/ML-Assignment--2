@@ -25,6 +25,6 @@
     "Heart_Disease: default form returns prediction",
     "Heart_Disease: changed-input form returns prediction"
   ],
-  "cloud_verified": false,
+  "cloud_verified": true,
   "note": "Cloud verification is tracked separately in deployment_status.json."
 }
